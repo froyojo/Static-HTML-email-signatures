@@ -95,23 +95,4 @@
         </tbody>
     </table>
 
-    <button onclick="copyToClipboard()">Copy text</button>
-
-    <script>
-        function copyToClipboard() {
-          let copyText = document.getElementById("content").outerHTML
-            console.log(copyText)
-            navigator.clipboard.writeText(copyText).then(() => {
-                alert("Copied to clipboard");
-            });
-        }
-      </script>
-
-</div>
-
-<div>
-<script language="JavaScript" type="text/javascript" src="/_common/js/jquery.min.js"></script>
-
-
-
 </div>
